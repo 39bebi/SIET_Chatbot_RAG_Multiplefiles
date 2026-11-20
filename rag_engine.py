@@ -1,6 +1,7 @@
-import pathlib import Path
+
 import faiss
 import numpy as np
+from pathlib import Path
 from groq import Groq
 from pypdf import PdfReader
 from sentence_transformers import SentenceTransformer
